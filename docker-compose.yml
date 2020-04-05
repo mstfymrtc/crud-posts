@@ -1,0 +1,17 @@
+version: '3'
+services:
+
+  crud-posts-api:
+    build: ./crud-posts-api
+    environment:
+      - token_password=7/7*=aH>3^T)^fc($k-ZHjFDS`hg>Syf\U9C!e7PpVL^'
+    ports:
+      - 8000:8000
+
+  crud-posts-app:
+    build: ./crud-posts-app
+    ports:
+      - 8080:8080
+
+volumes:
+  crud-posts-data:
