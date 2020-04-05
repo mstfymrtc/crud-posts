@@ -60,7 +60,7 @@
             </v-list-tile>
           </v-card-actions>
           <v-card-text
-            style="word-break:break-all"
+            style="word-break:break-word"
             class="headline font-weight-bold"
           >{{ post.content }}</v-card-text>
         </v-card>
