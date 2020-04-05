@@ -50,7 +50,7 @@ Frontend app runs on http://localhost:8080
  - Password: ``123qwe``
 
 
-#### [crud-posts-api (Rest API)]([https](https://github.com/mstfymrtc/go-posts-api))
+#### [crud-posts-api (Rest API)](https://github.com/mstfymrtc/go-posts-api)
 
 This is a Gorilla Mux (Go) based application that connects with a
 database that and expose the REST endpoints that can be consumed by
